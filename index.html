@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- <link rel="stylesheet" href="test.css"> -->
     <link rel="stylesheet" href="style.css">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Assignment 2</title>
 </head>
 <body>
+
+    <!-- <header>
+        <div class="logo">RM</div>
+        <nav id="menubar">
+            <ul>
+                <li><a href="#">Me</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>
+        <button onclick="handleMenuBar()" class="nav-menu"><i class="fa-solid fa-bars"></i></button> 
+       
+    </header> -->
+
     <header>
         <div class="header">
             <div class="logo">G3 Architects</div>
-        <nav class="menu">
+        <nav id="menubar" class="menu show">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -21,6 +36,7 @@
                 <li><a href="#">Login</a></li>
             </ul>
         </nav>
+        <button  class="nav-menu "><i class="fa-solid fa-bars"></i></button> 
         </div>
         <section class="banner">
             <div class="banner-title">
@@ -142,6 +158,69 @@
             
         </div>
     </section>
+<section class="our-team-layer">
+    <h1>Our Teammates</h1>
+    <section class="our-team">
+
+        <div class="team-container">
+            
+            <div class="team-card">
+                <div class="img">
+                    <img src="images/jhon.jpg" alt="">
+                </div>
+                <div class="team-title">
+    Jhon Snow
+                </div>
+                <div class="team-button">
+                    <button>Call Now</button>
+                </div>
+    
+            </div>
+    
+            <div class="team-card">
+                <div class="img">
+                    <img src="images/arya.jpg" alt="">
+                </div>
+                <div class="team-title">
+    Arya Stack
+                </div>
+                <div class="team-button">
+                    <button>Call Now</button>
+                </div>
+    
+            </div>
+    
+            <div class="team-card">
+                <div class="img">
+                    <img src="images/emil.jpg" alt="">
+                </div>
+                <div class="team-title">
+                    Daenerys  
+                </div>
+                <div class="team-button">
+                    <button>Call Now</button>
+                </div>
+    
+            </div>
+            <div class="team-card">
+                <div class="img">
+                    <img src="images/sansa.jpg" alt="">
+                </div>
+                <div class="team-title">
+    Sansa
+                </div>
+                <div class="team-button">
+                    <button>Call Now</button>
+                </div>
+    
+            </div>
+           
+        </div>
+    </section>
+</section>
+
+
+
     <section class="sponsor">
 <div class="sponsor-container">
     <div class="one">
@@ -162,10 +241,15 @@
 </div>
 
     </section>
+
     <footer>
         <h1>All rights reserved copyright@2023 startup landing page design</h1>
     </footer>
  
-    
+    <script>
+//         const handleMenuBar = () =>{
+//  document.getElementById("menubar").classList.toggle("show")   
+// }
+    </script>
 </body>
 </html>
